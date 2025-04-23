@@ -1,0 +1,11 @@
+{
+  "name": "Tailspin Toys Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "remoteUser": "vscode",
+  "postCreateCommand": "./scripts/setup-env.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}
